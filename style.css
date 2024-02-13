@@ -1,0 +1,44 @@
+*{
+    margin: 0;padding: 0;
+}
+
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box
+{
+    margin-top: 200px;
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid rgb(20, 20, 20); */
+    text-align: center;
+    box-shadow: 3px 5px 20px -2px;
+}
+
+form{
+    margin-top: 50px;
+}
+
+input{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+#btn{
+margin-top: 5px;
+border-radius:12px ;
+padding: 10px;
+border: none;
+background-color: rgb(80, 80, 184);
+color: white;
+}
+
+body{
+    background: url(test.jpg) no-repeat center center/ cover;
+}
